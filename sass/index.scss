@@ -1,0 +1,350 @@
+h1 {
+    color:black;
+    width: 500px;
+    border: 3px solid black;
+    text-align:center;
+    display:block;
+    margin:auto;
+    }
+
+.barradetareas {
+    color: #17B3AA;
+    border: 3px solid black;
+}
+
+.informacion {
+    position: relative;
+    overflow: hidden;
+    height: 10000;
+}
+
+.informacion p { 
+    font-size:20px;
+    text-align:center;
+    color:black;
+    z-index: 2;
+    position: relative;
+}
+.informacion img {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.2;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+}
+body{
+    margin: 10px;
+  }
+
+img{
+    display:block;
+    margin:auto;
+    width: 100%;
+    }
+.taller{
+    width: 25%;
+    margin-top: 10px;
+    float: left;
+}
+.h2taller{
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.ptaller{
+    margin-left: 35px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+ .contratu{
+    width: 35%;
+    margin-top: 10px;
+    float: left;
+ }
+
+ .h2contratu{
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+ }
+.pcontratu{
+    margin-left: 35px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+    
+li {
+        float: left;
+    }
+    
+li a {
+        display: block;
+        color:black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+li a:hover {
+        background-color: #17B3AA;
+    }   
+ p {
+    text-align:center;
+ }
+
+
+header {
+    background-color: #17B3AA;
+    border: 3px solid black
+}
+
+.contenedorflex{
+    display: flex;
+    padding: 5 px;
+}
+
+.colunma{
+    flex: 25%;
+    padding: 5px;
+}
+
+.colunma img{
+    width:100%;
+    padding: 5px
+} 
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  @media (max-width:768px) {
+    h1 {
+        color:black;
+        width: 500px;
+        border: 3px solid black;
+        text-align:center;
+        display:block;
+        margin:auto;
+        }
+    
+    .barradetareas {
+        color: #17B3AA;
+        border: 3px solid black;
+    }
+    
+    .informacion {
+        position: relative;
+        overflow: hidden;
+        height: 10000;
+    }
+    
+    .informacion p { 
+        font-size:20px;
+        text-align:center;
+        color:black;
+        z-index: 2;
+        position: relative;
+    }
+    .informacion img {
+        position: absolute;
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 0.2;
+        width: 100%;
+        left: 0;
+        top: 0;
+    
+    }
+    body{
+        margin: 10px;
+      }
+    
+    img{
+        display:block;
+        margin:auto;
+        width: 100%;
+        }
+    .taller{
+        width: 25%;
+        margin-top: 10px;
+        float: left;
+    }
+    .h2taller{
+        justify-content:space-between;
+        align-items: center;
+        padding: 10px;
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 35px;
+    }
+    .ptaller{
+        margin-left: 35px;
+        text-align: center;
+        justify-content: space-between;
+        
+    }
+     .contratu{
+        width: 35%;
+        margin-top: 10px;
+        float: left;
+     }
+    
+     .h2contratu{
+        justify-content:space-between;
+        align-items: center;
+        padding: 10px;
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 35px;
+     }
+    .pcontratu{
+        margin-left: 35px;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+        
+    li {
+            float: left;
+        }
+        
+    li a {
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+    li a:hover {
+            background-color: #17B3AA;
+        }   
+     p {
+        text-align:center;
+     }
+    
+    
+    header {
+        background-color: #17B3AA;
+        border: 3px solid black
+    }
+    
+    .contenedorflex{
+        display: flex;
+        padding: 5 px;
+    }
+    
+    .colunma{
+        flex: 25%;
+        padding: 5px;
+    }
+    
+    .colunma img{
+        width:100%;
+        padding: 5px
+    } 
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+      /* Style the submit button with a specific background color etc */
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Add a background color and some padding around the form */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+  }
